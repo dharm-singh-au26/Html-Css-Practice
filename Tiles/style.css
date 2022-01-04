@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: 1px solid black;
+    padding:20px;
+    background-color: beige;
+}
+h1{
+    font: size 80px;;
+    text-align:center;
+}
+
+.box {
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;  
+    font-size: 30px;
+    text-align: center;
+}
+
+.Primary{
+    background-color: rgb(99, 96, 96);
+    color: white;
+}
+.Secondary {
+    background-color: rgb(147, 179, 189);
+}
+.Neutral{
+    background-color: lavender;
+}
+.Accent{
+    background-color: lightskyblue;
+    color: white;
+
+}
+.Success{
+    background-color: green;
+    color: white;
+}
+.Alert{
+    background-color: red;
+    color: white;
+
+}
+.Warning{
+    background-color: orange;
+    color: white;
+
+}
+.Info{
+    background-color: rgb(150, 185, 199);
+}
