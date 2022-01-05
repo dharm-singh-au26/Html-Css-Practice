@@ -1,58 +1,133 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.container{
-    border: 1px solid black;
-    padding:20px;
-    background-image:linear-gradient(to right , rgb(255, 81, 0),indigo )
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(255, 81, 0), indigo);
 }
-h1{
-    font: size 80px;;
-    text-align:center;
+h1 {
+  font: size 80px;
+  text-align: center;
 }
 
 .box {
-    display: inline-block;
-    margin: 50px;
-    padding: 50px;
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;  
-    font-size: 30px;
-    text-align: center;
+  display: inline-block;
+  margin: 50px;
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
 }
 
-.Primary{
-    background-color: rgb(99, 96, 96);
-    color: white;
+.Primary {
+  background-color: rgb(99, 96, 96);
+  color: white;
 }
+
+.Primary:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+
 .Secondary {
-    background-color: rgb(147, 179, 189);
+  background-color: rgb(147, 179, 189);
 }
-.Neutral{
-    background-color: lavender;
-}
-.Accent{
-    background-color: lightskyblue;
-    color: white;
 
+.Secondary:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
 }
-.Success{
-    background-color: green;
-    color: white;
-}
-.Alert{
-    background-color: red;
-    color: white;
 
+.Neutral {
+  background-color: lavender;
 }
-.Warning{
-    background-color: orange;
-    color: white;
 
+.Neutral:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
 }
-.Info{
-    background-color: rgb(150, 185, 199);
+
+.Accent {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.Accent:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+
+.Success {
+  background-color: green;
+  color: white;
+}
+
+.Success:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+
+.Alert {
+  background-color: red;
+  color: white;
+}
+
+.Alert:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+
+.Warning {
+  background-color: orange;
+  color: white;
+}
+
+.Warning:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+
+.Info {
+  background-color: rgb(150, 185, 199);
+}
+.Info:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  box-shadow: 25px 18px 44px gold;
+  font-size: 45px;
+  transition-delay: 1s;
 }
