@@ -1,7 +1,32 @@
-* {
-  margin: 0px;
-  padding: 0px;
+body {
+  background-color: rgb(222, 241, 241);
+  font: italic;
 }
 .container {
-  background-color: aquamarine;
+  border: 1px solid black;
+  width: 100%;
+  /* margin-left: 20%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: lightslategray;
+}
+button {
+  background: #4de04d;
+  font: white;
+  width: 50%;
+  /* margin-left: 20%; */
+  padding: 20px;
+}
+.number {
+  height: 10px;
+  width: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: green;
 }
